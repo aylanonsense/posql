@@ -1,0 +1,19 @@
+{
+  "name": "posql",
+  "version": "0.0.1",
+  "description": "The Part of Speech Query Language!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests || true",
+    "test:watch": "mocha --watch tests || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bridgs/posql.git"
+  },
+  "author": "bridgs",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
